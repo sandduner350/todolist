@@ -1,14 +1,24 @@
 <html>
-<head>
-</head>
-<body>
+  <head>
+  </head>
+  <body>
 
-<input class="input21" type="text">
-<ul class="list21">
+	  <input class="input21" type="text">
+	  <ul class="list21">
 
-	</ul>
-<script src="script.js"></script>
+	  </ul>
 
-</body>
+    <!-- 
+      Try as often as you can to load scripts at the BOTTOM of any HTML file.
+      This will ensure that all elements are rendered BEFORE trying to do
+      anything fancy with them.
+    -->
+    <!--
+      ALWAYS load your script dependencies BEFORE your own code.
+    -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+
+  </body>
 
 </html>
