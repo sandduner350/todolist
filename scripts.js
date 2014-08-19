@@ -8,7 +8,10 @@ $(document).ready(function(){
     }
   });
 
-  // Place here any additional event listeners (Remember, SELECTOR.EVENT(function(){}))
+  // Place here any additional event listeners (Remember, SELECTOR.EVENT(functionsnction(){}))
+
+
+  // I thought I might need a prompt to get the info, but I need more of an input instead of a prompt!!!
 
   /*** END Event Listeners (Do not place any beyond this point) ***/
   /*** Internal Functions (Functions to run when listener is triggered) ***/
