@@ -36,4 +36,10 @@ $(document).ready(function(){
 
 
 
+var greeting = function (name)
 
+{
+    console.log("bob");
+}
+
+SayHello = greeting ("bob");
